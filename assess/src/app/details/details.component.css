@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,85,0.9850315126050421) 0%, rgba(0,212,255,1) 100%);
+    position: relative;
+}
+
+.header .header-title h1{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-weight: 600
+}
+
+.header .header-title p,
+.header .header-title span{
+    color: rgb(217, 237, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.header .profile-pic{
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    top: 65%;
+    right: 36%;
+}
+
+.header .profile-pic img{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 1px #9b9b9b
+}
+
+.details .counts{
+    border: 1px solid #9b9b9b;
+    padding: 8px 10px;
+}
+
+.details .counts h3{
+    text-transform: uppercase;
+    color: #06b9cd
+}
+
+.details .counts span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000
+}

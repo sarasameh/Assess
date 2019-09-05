@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,85,0.9850315126050421) 0%, rgba(0,212,255,1) 100%);
+  
+}
+
+.header .header-title h1{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-weight: 600
+}
+
+.header .header-title p{
+    color: rgb(217, 237, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}

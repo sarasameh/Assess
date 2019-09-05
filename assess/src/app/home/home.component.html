@@ -1,0 +1,43 @@
+<div class="search p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Search here for any <span>gethib</span> reposatory</h1>
+                <form class="form-inline my-5">
+
+                    <div class="form-group m-2">
+                        <input type="search" name="term" id="" class="form-control" [(ngModel)]="term"
+                            placeholder="Search here ..!!">
+                    </div>
+                    <button class="btn btn-primary" (click)='changeTerm(term)'>search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+
+
+        <div class="col-md-12">
+            <div class="search-res" *ngFor="let u of repoContainer|search:term">
+
+                <a routerLink='details/{{u.full_name}}'>
+                    <div class="media my-4">
+                        <img src="{{u.owner.avatar_url}}" class="mr-3 float-left img-fluid" alt="...">
+                        <div class="media-body float-left mt-4">
+                            <h5 class="mt-0">{{u.full_name}}</h5>
+                            <small>{{u.stargazers_count}}</small>
+                            <p>{{u.description}}</p>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+.search{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,85,0.9850315126050421) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+.search h1{
+    font-family: 'Source Code Pro', monospace;
+    color: #fff
+}
+
+.search h1 span{
+    font-weight: 600;
+    text-transform: uppercase
+}
+.search form{
+    width:70%;
+    margin: auto;
+}
+.search form .form-group{
+    width: 80%;
+}
+.search form .form-group input{
+    width: 100%;
+    padding: 10px;
+}
+
+.search form .btn{
+    background-color: #06bacf;
+    border: 1px solid #fff;
+}
+
+.search form .btn:hover{
+    background-color: #fff;
+    color: #06bacf;
+    border: 1px solid #06bacf;
+}
+
+.search-res .media:hover{
+    box-shadow: 1px 1px 1px #c0c0c0
+    
+}
+.search-res .media img{
+    width: 100px;
+}
+
+.search-res a {
+    text-decoration: none;
+    
+}
+
+.search-res a .media h5{
+    color: #000000;
+    text-transform: uppercase;
+    
+}
+
+.search-res a .media small{
+    color: #9b9b9b;
+    font-weight: 600
+    
+}
+
+.search-res a .media  p{
+    color: #9b9b9b;
+    font-size: 14px;
+    
+}
+

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+nav{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,85,0.9850315126050421) 0%, rgba(0,212,255,1) 100%);
+    border-bottom: 1px solid #c7c7c7;
+}
+
+
+nav .navbar-brand{
+    font-family: 'Playfair Display', serif;
+font-weight: 600;
+color:#fff;
+}
+
+nav ul li a{
+    font-weight: 600;
+    color: #ffff
+}
+nav ul li a:hover{
+    font-weight: 600;
+    color: #c7c7c7
+}

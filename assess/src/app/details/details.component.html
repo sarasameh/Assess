@@ -1,0 +1,53 @@
+<div class="header mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header-title text-center my-5 pb-5">
+                    <h1>{{detailsContainer.name}}</h1>
+                    <p>{{detailsContainer.description}}</p>
+                    <span>{{detailsContainer.language}}</span>
+                </div>
+                <div class="profile-pic my-3">
+                    <img class="img-fluid" src="{{detailsContainer.owner.avatar_url}}" alt="">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="details mt-5">
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                        <div class="profile-data text-center my-5">
+                                <h2>{{detailsContainer.full_name}}</h2>
+                            </div>
+                </div>
+
+            <div class="col-md-4 text-center">
+                    <div class="counts mt-5">
+                            <h3>stargazers</h3>
+                            <span>{{detailsContainer.stargazers_count}}</span>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 text-center">
+                    <div class="counts mt-5">
+                            <h3>forks</h3>
+                            <span>{{detailsContainer.forks_count}}</span>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 text-center">
+                    <div class="counts mt-5">
+                            <h3>size</h3>
+                            <span>{{detailsContainer.size}}</span>
+                        </div>
+                    </div>
+ 
+        </div>
+    </div>
+</div>
